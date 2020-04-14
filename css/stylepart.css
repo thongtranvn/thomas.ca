@@ -1,0 +1,22 @@
+#name
+{
+  text-align:center;
+}
+#new-arrivals{
+  width:1300px;
+}
+#left{
+  margin:15px;
+  width:400px;
+  float:left;
+}
+#centre{
+  margin:15px;
+  width:400px;
+  float:left;
+}
+#right{
+  margin:15px;
+  width:400px;
+  float:left;
+}
