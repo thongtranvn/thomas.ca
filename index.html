@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>FASHION SHOP</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="menu-top">
+      <div id="top-left"></div>
+      <div id = "top-container">FASHION SHOP</div>
+        <ul id="menu-container">
+          <li><a href="https://assignment5--thongtran2.repl.co" title="Home" class="active">Home</a></li>
+          <li><a href="man.html"title="Man" >Man</a></li>
+          <li><a href="woman.html"title="Woman" >Woman</a></li>
+          <li><a href="bag.html"title="Bags" >Bags</a></li>
+          <li><a href="contact.html"title="Contact" >Contact</a></li>    
+        </ul>
+    </div>
+    
+    <div id="Wellcome">
+      <h1 id="store"> WELCOME TO THE STORE </h1>
+    </div>
+    <section id="main-centre">
+      <div id="main">
+        <div id="left">
+          <img src="../img/men.png"style="width:100%">
+          <a href="man.html"title="man" class="button"><button type="button">MAN</button></a>
+        </div>
+        <div id="right">
+          <img src="../img/woman.jpg"style="width:100%">
+          <a href="woman.html"title="woman" class="button"><button type="button">WOMAN</button></a>
+        </div>
+      </div>
+    </section> 
+    <section id="bag">
+      <div id="mission">
+        <div id="middle">        
+          <img src="../img/bags.jpg"style="width:100%">
+          <a href="bag.html"title="man" class="button"><button type="button">BAGS</button></a>
+        </div>
+      </div>
+    </section>
+    <section id="brand">
+      <div id="clients">
+        <ul>
+          <li>
+            <img src="img/clients/c1.png"style="width:100%">
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/clients/c2.png"style="width:100%">
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/clients/c3.png"style="width:100%">
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/clients/c4.png"style="width:100%">
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/clients/c5.png"style="width:100%">
+          </li>
+        </ul>
+      </div>
+    </section>
+		
+    <div id="main-bottom">
+      <h2 id="main-bottom1">SHOP COMES IN 3 MAIN PRODUCTS</h2>      
+    </div>
+    <div id="main-bottom-button">
+      <a href="https://assignment5--thongtran2.repl.co"title="VISIT OUR SHOP" class="button"><button type="button">VISIT OUR SHOP</button></a>
+    </div>
+    </div>
+    <div id="footer">THONG'S FASHION SHOP
+      <div id="icons-container">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      </div>
+      <ul>
+      <li><a href="contact.html" title="CONTACT">CONTACT</a></li>
+      <li><a href="https://assignment5--thongtran2.repl.co" title="FAQ">FAQ</a></li>
+      <li><a href="https://assignment5--thongtran2.repl.co" title="BLOG">BLOG</a></li>
+      </ul>
+      <P>Subscribe email addresses.</P>
+      <input type="email" id="email"size="40px" style="height:20px"required placeholder="Email Address">
+      <a href=""title="SIGN UP" class="button"><button type="button"> Subscribe</button></a>
+    </div>
+    <div id="footer-bottom">
+      
+
+      <p id="center">&copy; 2020 Thong Tran</p>
+    </div>
+    <!--
+      Part 1: Main Store Page
+
+      Requirements:
+
+      1. Header across the top must include your store's name, a logo,
+      and use a different background colour, web font, etc.  You must also include
+      a link to your contact.html page.  Your header should include info about
+      what the store is, what it sells, etc.  Use some images to try and draw
+      the user in.  NOTE: place all your site's images in the `src/images/` directory.
+
+      2. Below the header, a multi-column layout of items you can purchase in the
+      store.  You must have at least 10 items in your store, and at least 2
+      categories of items. For example, if you are selling clothing, you might
+      have categories for Men, Women, and Children, and each category would have
+      its own set of items.  Each item should include:
+      
+        - a picture
+        - the item's name/title
+        - a more complete description of the item
+        - a category (i.e., each item must belong to a category)
+        - a price.
+      
+      Each item should be its own "card" (i.e., some kind of box around each item
+      separating one from the next, with suitable whitespace between).
+
+      3. A sidebar (left or right, depending on your design) of the item layout
+      section, showing the different categories of items in your store.  If a
+      user clicks on one of the categories, use CSS and JavaScript to hide all
+      other items in the store (i.e., only show items for the chosen category).
+      Make sure you include a way to return to seeing all categories, and make it
+      obvious to the user that they are only seeing a partial list of items when
+      you filter by category (i.e., use CSS and HTML to change things somehow).
+
+      4. Below the items, a footer with the name of the store, any relevant links you
+      need to give users, as well as a small HTML form for entering an Email
+      address and clicking a "Subscribe" button to subscribe to the store's
+      newsletter. Use https://formspree.io/ to automatically submit the form to
+      your email address (i.e., when a user fills out their email address and
+      clicks submit, *you* should get that information sent to your email
+      address via formspree.io).  Make sure you setup your account on
+      https://formspree.io/.
+
+      5. Use two different Web Fonts for your store.  The titles should be different
+      from any regular text.  Use a free font service like https://fonts.google.com/
+      or any other that you choose.  You can also experiment with different font
+      sizes and colours to draw attention toward or away from various parts of
+      your design.
+
+      6. Pick a colour theme using a tool like https://colorhunt.co/ with at least
+      3 colours (primary, secondary, accent), and use them throughout your site
+      for backgrounds, borders, fonts. Your store page needs to look attractive
+      and marks will be given for good a good looking site.  No one will buy from
+      a store that looks like its owners aren't professional or don't care about
+      details.  Also make sure that the colour contrast in your site is suitable
+      for everyone to read.
+
+      7. Use modern CSS to help you achieve your layout.  For example, Flexbox
+      and CSS Grid can help you create professional looking layouts.  Here
+      are some guides to get you started:
+
+       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+       - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+       
+      You are also welcome to use existing CSS libraries to help you with your layout,
+      but you must also include your own styles (i.e., you can't use a library
+      for everything in your design).
+
+      8. Make sure you don't use copyrighted materials from other sites.  If you use
+      icons, fonts, images, etc., make sure you are legally permitted to reuse them,
+      and include references to indicate where you got them. Some resources to consider:
+
+        - https://unsplash.com/ for images
+        - https://fontawesome.com/ for icons
+        - https://gallery.manypixels.co/ or https://undraw.co/illustrations for illustrations (SVG)
+
+      9. Make sure you reduce the download size of images you include in your
+      store.  Users don't want to download 10s or 100s of megabytes of data, especially
+      on mobile.  You can use an online tool like https://squoosh.app/ to help you
+      reduce images.  You will lose marks if your images aren't optimized for the web.
+       
+
+      10. Make sure you have no JavaScript or other errors in your Dev Tools Console.
+      Run your site, and test all aspects of it with the Console open, and fix
+      any issues you encounter.
+
+      11. Make sure your forms all work as they should, testing them yourself,
+      and also have someone else test it for you.  The easiest way to find bugs
+      in software is to let someone who didn't build it try to use it!
+      
+    -->
+  </body>
+</html>
